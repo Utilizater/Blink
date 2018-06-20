@@ -1,0 +1,64 @@
+Jun 16, 2018 2:08:36 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.85
+Jun 16, 2018 2:08:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 7 2018 18:52:33 UTC
+Jun 16, 2018 2:08:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.85.0
+Jun 16, 2018 2:08:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Jun 16, 2018 2:08:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Jun 16, 2018 2:08:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jun 16, 2018 2:08:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_161\jre
+Jun 16, 2018 2:08:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_161-b12
+Jun 16, 2018 2:08:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jun 16, 2018 2:08:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Users\polev\IdeaProjects\Site\localtest\apache-tomcat-7.0.85-windows-x64\apache-tomcat-7.0.85
+Jun 16, 2018 2:08:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Users\polev\IdeaProjects\Site\localtest\apache-tomcat-7.0.85-windows-x64\apache-tomcat-7.0.85
+Jun 16, 2018 2:08:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\Users\polev\IdeaProjects\Site\localtest\apache-tomcat-7.0.85-windows-x64\apache-tomcat-7.0.85\conf\logging.properties
+Jun 16, 2018 2:08:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 16, 2018 2:08:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jun 16, 2018 2:08:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Jun 16, 2018 2:08:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Users\polev\IdeaProjects\Site\localtest\apache-tomcat-7.0.85-windows-x64\apache-tomcat-7.0.85
+Jun 16, 2018 2:08:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Users\polev\IdeaProjects\Site\localtest\apache-tomcat-7.0.85-windows-x64\apache-tomcat-7.0.85
+Jun 16, 2018 2:08:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\Users\polev\IdeaProjects\Site\localtest\apache-tomcat-7.0.85-windows-x64\apache-tomcat-7.0.85\temp
+Jun 16, 2018 2:08:37 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.16 using APR version 1.6.3.
+Jun 16, 2018 2:08:37 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Jun 16, 2018 2:08:38 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2m  2 Nov 2017)
+Jun 16, 2018 2:08:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Jun 16, 2018 2:08:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Jun 16, 2018 2:08:39 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3433 ms
+Jun 16, 2018 2:08:39 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jun 16, 2018 2:08:39 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.85
+Jun 16, 2018 2:08:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\polev\IdeaProjects\Site\localtest\apache-tomcat-7.0.85-windows-x64\apache-tomcat-7.0.85\webapps\ROOT
+Jun 16, 2018 2:08:40 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [133] milliseconds.
+Jun 16, 2018 2:08:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\polev\IdeaProjects\Site\localtest\apache-tomcat-7.0.85-windows-x64\apache-tomcat-7.0.85\webapps\ROOT has finished in 844 ms
+Jun 16, 2018 2:08:40 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Jun 16, 2018 2:08:40 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Jun 16, 2018 2:08:40 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1025 ms

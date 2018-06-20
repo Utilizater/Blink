@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Blink</title>
+    <style>
+   .blok-center {
+    position: absolute; /* Абсолютное позиционирование */
+    width: 300px; /* Ширина блока */
+    height: 200px; /* Высота блока */
+    margin: auto; /* Отступ от блока */
+    top: 0; /* Положение блока от верхнего края */
+    bottom: 0; /* Положение блока от нижнего края */
+    left: 0; /* Положение блока от левого края */
+    right: 0; /* Положение блока от правого края */
+    background: #fc0; /* Цвет фона блока */
+    border: 1px solid #000; /* Рамка блока */
+    padding: 10px; /* Отступ внутри блока */
+    overflow: auto; /* Полоса прокрутки */
+   }
+</style>
+</head>
+<body>
+<div class="blok-center">
+    <form>
+        <p>Login<br />
+            <input class="input" name="login" type="text" style="width:60%" /></p>
+        <p>Password<br />
+            <input class="input" name="password" type="text" style="width:60%" /></p>
+        <p><input id="submit" value="Авторизация" type="submit" /></p>
+    </form>
+</div>
+</body>
+</html>
